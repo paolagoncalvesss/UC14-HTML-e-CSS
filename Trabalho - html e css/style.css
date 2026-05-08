@@ -1,0 +1,81 @@
+/* Configurações Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fdf7f2; /* Um off-white levemente rosado */
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #5d5d5d;
+}
+
+/* Container Principal */
+.container {
+    width: 90%;
+    max-width: 450px;
+    text-align: center;
+}
+
+/* O "Card" do Site */
+.card {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 50px 50px 0 0; /* Bordas arredondadas orgânicas */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+/* Títulos e Textos */
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    color: #b48d8d; /* Rosa seco suave */
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    font-style: italic;
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+    color: #a0a0a0;
+}
+
+/* Imagem */
+.image-placeholder img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    filter: sepia(20%); /* Deixa a imagem com tom mais quente/aconchegante */
+}
+
+.text {
+    line-height: 1.6;
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+/* Botão e Efeito Hover (Desafio Extra) */
+.btn-interativo {
+    background-color: #fed5d5; /* Verde menta clarinho */
+    color: #ffffff;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    font-weight: bold;
+}
+
+.btn-interativo:hover {
+    background-color: #b48d8d;
+    color: white;
+    transform: scale(1.05); /* Botão cresce levemente de forma suave */
+    box-shadow: 0 5px 15px rgba(180, 141, 141, 0.3);
+}
